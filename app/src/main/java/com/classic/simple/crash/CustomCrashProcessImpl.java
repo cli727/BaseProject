@@ -19,7 +19,7 @@ public class CustomCrashProcessImpl implements ICrashProcess {
     @Override public void onException(Thread thread, Throwable exception) throws Exception {
 
         //TODO 这里替换你的自定义逻辑
-
+		// test
         final String logName = DateUtil.formatDate("yyyyMMdd_HHmmss", System.currentTimeMillis()) + SUFFIX;
         final File file = new File(SDCardUtil.getLogDirPath(), logName);
         if (!file.exists()) {
