@@ -22,5 +22,6 @@ public class ClassicApplication extends Application {
 
         BasicProject.config(builder);
         Adapter.config(new Adapter.Builder().setImageLoad(new GlideImageLoad()));
+	    // adding comments to test
     }
 }
